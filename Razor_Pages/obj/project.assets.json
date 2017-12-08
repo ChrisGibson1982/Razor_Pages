@@ -13133,11 +13133,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\git\\Learning\\ASP_Net Core Beginner\\Razor_Pages\\Razor_Pages\\Razor_Pages.csproj",
+      "projectUniqueName": "C:\\github\\Razor_Pages\\Razor_Pages\\Razor_Pages.csproj",
       "projectName": "Razor_Pages",
-      "projectPath": "C:\\git\\Learning\\ASP_Net Core Beginner\\Razor_Pages\\Razor_Pages\\Razor_Pages.csproj",
+      "projectPath": "C:\\github\\Razor_Pages\\Razor_Pages\\Razor_Pages.csproj",
       "packagesPath": "C:\\Users\\cgfoo\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\Learning\\ASP_Net Core Beginner\\Razor_Pages\\Razor_Pages\\obj\\",
+      "outputPath": "C:\\github\\Razor_Pages\\Razor_Pages\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
