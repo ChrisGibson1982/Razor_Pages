@@ -93,6 +93,15 @@
           "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {}
         }
       },
+      "Microsoft.ApplicationInsights.Web/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.AI.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AI.Web.dll": {}
+        }
+      },
       "Microsoft.AspNetCore/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -5099,6 +5108,29 @@
         "lib/netstandard1.6/Microsoft.AI.DependencyCollector.xml",
         "microsoft.applicationinsights.dependencycollector.2.4.1.nupkg.sha512",
         "microsoft.applicationinsights.dependencycollector.nuspec"
+      ]
+    },
+    "Microsoft.ApplicationInsights.Web/2.4.1": {
+      "sha512": "e4o0xJnKe4+YiyDysi6jhjXeZXb/nO369E3OeikWT7LD8UsSVCXbPxg3yPhI5Sn/F+fk260fz0lz3KSP17SZRg==",
+      "type": "package",
+      "path": "microsoft.applicationinsights.web/2.4.1",
+      "files": [
+        "content/net40/ApplicationInsights.config.install.xdt",
+        "content/net40/ApplicationInsights.config.transform",
+        "content/net40/ApplicationInsights.config.uninstall.xdt",
+        "content/net40/web.config.install.xdt",
+        "content/net40/web.config.uninstall.xdt",
+        "content/net45/ApplicationInsights.config.install.xdt",
+        "content/net45/ApplicationInsights.config.transform",
+        "content/net45/ApplicationInsights.config.uninstall.xdt",
+        "content/net45/web.config.install.xdt",
+        "content/net45/web.config.uninstall.xdt",
+        "lib/net40/Microsoft.AI.Web.XML",
+        "lib/net40/Microsoft.AI.Web.dll",
+        "lib/net45/Microsoft.AI.Web.XML",
+        "lib/net45/Microsoft.AI.Web.dll",
+        "microsoft.applicationinsights.web.2.4.1.nupkg.sha512",
+        "microsoft.applicationinsights.web.nuspec"
       ]
     },
     "Microsoft.AspNetCore/2.0.1": {
@@ -13117,6 +13149,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.ApplicationInsights.AspNetCore >= 2.1.1",
+      "Microsoft.ApplicationInsights.Web >= 2.4.1",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.1"
@@ -13153,7 +13186,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.cgfootman.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13173,6 +13205,10 @@
           "Microsoft.ApplicationInsights.AspNetCore": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "Microsoft.ApplicationInsights.Web": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
@@ -13195,5 +13231,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.ApplicationInsights.Web 2.4.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.ApplicationInsights.Web",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }
