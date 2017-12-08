@@ -1,0 +1,11 @@
+services:
+  razor_pages:
+    build:
+      context: C:\git\Learning\ASP_Net Core Beginner\Razor_Pages
+      dockerfile: Razor_Pages/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: razor_pages
+    ports:
+    - 80/tcp
+version: '3.0'

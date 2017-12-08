@@ -1,0 +1,1 @@
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

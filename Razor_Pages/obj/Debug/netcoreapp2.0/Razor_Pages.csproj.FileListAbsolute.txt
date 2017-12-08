@@ -1,0 +1,11 @@
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\bin\Debug\netcoreapp2.0\Razor_Pages.deps.json
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\bin\Debug\netcoreapp2.0\Razor_Pages.runtimeconfig.json
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\bin\Debug\netcoreapp2.0\Razor_Pages.runtimeconfig.dev.json
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\bin\Debug\netcoreapp2.0\Razor_Pages.dll
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\obj\Debug\netcoreapp2.0\Razor_Pages.csprojResolveAssemblyReference.cache
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\obj\Debug\netcoreapp2.0\Razor_Pages.csproj.CoreCompileInputs.cache
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\obj\Debug\netcoreapp2.0\Razor_Pages.AssemblyInfoInputs.cache
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\obj\Debug\netcoreapp2.0\Razor_Pages.AssemblyInfo.cs
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\bin\Debug\netcoreapp2.0\Razor_Pages.pdb
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\obj\Debug\netcoreapp2.0\Razor_Pages.dll
+C:\git\Learning\ASP_Net Core Beginner\Razor_Pages\Razor_Pages\obj\Debug\netcoreapp2.0\Razor_Pages.pdb
