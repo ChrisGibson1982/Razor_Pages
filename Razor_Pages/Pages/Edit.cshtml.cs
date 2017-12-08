@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -32,7 +30,8 @@ namespace Razor_Pages.Pages
 
         public async Task<IActionResult> OnPostAsync(int id)
         {
-            if(!ModelState.IsValid)
+
+            if (!ModelState.IsValid)
             {
                 return Page();
             }
@@ -43,9 +42,11 @@ namespace Razor_Pages.Pages
             {
                 await _db.SaveChangesAsync();
                 Message = $"Customer {Customer.Name} updated";
+                
             }
             catch(DbUpdateConcurrencyException e)
             {
+                 
                 throw new Exception($"Customer {Customer.Id} not found!", e);
             }
 

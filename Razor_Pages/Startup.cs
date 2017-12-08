@@ -28,6 +28,7 @@ namespace Razor_Pages
                 );
             services.AddMvc();
             services.AddLogging();
+            services.AddApplicationInsightsTelemetry(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +36,7 @@ namespace Razor_Pages
         {
             loggerfactory.AddConsole();
             loggerfactory.AddDebug();
+            
 
             if (env.IsDevelopment())
             {
